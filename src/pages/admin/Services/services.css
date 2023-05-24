@@ -1,0 +1,125 @@
+.contenedor-servicios {
+  display: flex;
+  flex-direction: row;
+}
+
+.contenedor-panel-vertical {
+  width: 24%;
+  position: relative;
+  top: -30px;
+  height: 585px;
+  border: 1px solid rgba(0, 0, 0, 0.138);
+  border-radius: 10px;
+  padding-bottom: 5px;
+}
+
+.contenedor-panel-list-services {
+  width: 76%;
+  overflow: auto;
+  height: 580px;
+  position: relative;
+  border-radius: 10px;
+  left: 1%;
+  top: -25px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.341);
+
+}
+
+.contenedor-panel-list-services-v2 {
+  width: 76%;
+  overflow: auto;
+  height: 580px;
+  position: relative;
+  border-radius: 10px;
+  left: 1%;
+  top: -25px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.114);
+  animation: animate 3s linear infinite;
+  background-size: 800%;
+
+}
+
+@keyframes animate {
+    /* subir y bajar intensidad de colores */
+    0% {
+        background-position: 0%;
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.812);
+    }
+    25% {
+        background-position: 25%;
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.177);
+    }
+    50% {
+        background-position: 50%;
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.812);
+    }
+    75% {
+        background-position: 75%;
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.177);
+    }
+    100% {
+        background-position: 0%;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.812);
+    }
+}
+
+.table-services {
+  padding: 15px;
+}
+
+.text-items-table-services {
+  font-size: 13px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.text-items-table-services-bold {
+  font-size: 13px;
+  font-weight: 500;
+  color: #000000;
+  font-weight: bold;
+}
+
+/*  */
+.sin-servicios{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.text-sin-servicios{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+}
+
+/* CONT SIN SERVICIOS */
+
+.cont-sin-services{
+
+  position: relative;
+  left: 90%;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.img_sin_services{
+  width: 100px;
+  height: 100px;
+}

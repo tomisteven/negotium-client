@@ -1,0 +1,145 @@
+.cont-profile-configuration {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.input-info {
+  width: auto;
+}
+.input-info-pass {
+  margin-top: 10px;
+}
+.user-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 2px dashed #0000006c;
+  padding: 5px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title-user-img {
+  position: relative;
+  top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #00000087;
+  text-align: center;
+}
+.title-info-user {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #00000098;
+}
+.user-img-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.user-info {
+  margin-top: 20px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  height: 500px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.111);
+  padding: 10px;
+  border-radius: 15px;
+}
+.user-info-l{
+  margin-top: 20px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 500px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.111);
+  padding: 10px;
+  border-radius: 15px;
+}
+.item-input-info{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-pass {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  width: 100%;
+}
+.btn-question {
+  width: auto;
+  height: auto;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: auto;
+  position: relative;
+  bottom: 3px;
+}
+
+/* btn save */
+.cont-btn-save {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+/* avatar dropzone */
+.cont-btn-avatar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.p-imagen-select {
+  width: 80%;
+  margin: 20px auto;
+  font-size: 14px;
+  color: black;
+}
+.cont-btn-avatar-actions {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 15px;
+}
+
+/* comercial */
+.info-comercial {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+background-color: #00000015;
+  flex-wrap: wrap;
+  width: 45%;
+    height: 500px;
+    border-radius: 15px;
+}
+
+

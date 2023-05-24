@@ -1,0 +1,128 @@
+@media only screen and (min-width: 320px) and (max-width: 560px){
+    .container-cont-items{
+        width: 100%;
+    }
+
+    .cont-items-header{
+        width: 100%;
+    }
+    .cont-body-info{
+        width: 80%;
+        height: auto;
+        align-items: center;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .cont-body-actions{
+        display:none;
+    }
+    .body-acumulacion{
+        position: relative;
+        top: 10px;
+        margin: 5px;
+    }
+    .cont-acumulacion{
+        position: relative;
+        bottom: 10px;
+    }
+}
+
+@media only screen and (min-width: 561px) and (max-width: 850px){
+    .container-cont-items{
+        width: 200px;
+        height: 150px;
+
+    }.cont-items-header{
+        width: 100%;
+        align-items: flex-start;
+    }
+    .name-header-v2{
+        font-size: 13px;
+        margin: 5px;
+        position: relative;
+        left: -25px;
+        color: #fff;
+    }
+    .cont-body-actions{
+        display:none;
+    }
+    .body-acumulacion{
+        position: relative;
+        top: 10px;
+        margin: 5px;
+    }
+    .cont-acumulacion{
+        position: relative;
+        bottom: 10px;
+    }
+    .cont-body-info{
+        width: 80%;
+        height: auto;
+        align-items: center;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+}
+
+@media only screen and (min-width: 880px) and (max-width: 1024px){
+    .container-cont-items{
+        width: 200px;
+        height: 150px;
+
+    }.cont-items-header{
+        width: 100%;
+        align-items: flex-start;
+    }
+    .name-header-v2{
+        font-size: 13px;
+        margin: 5px;
+        position: relative;
+        left: -25px;
+        color: #fff;
+    }
+    .cont-body-actions{
+        display:none;
+    }
+    .body-acumulacion{
+        position: relative;
+        top: 10px;
+        margin: 5px;
+    }
+    .cont-acumulacion{
+        position: relative;
+        bottom: 10px;
+    }
+    .cont-body-info{
+        width: 80%;
+        height: auto;
+        align-items: center;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .link-add{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1980px){
+    .cont-items-header{
+        align-items: center;
+        justify-content: flex-start;
+
+    }
+    .name-header-v2{
+        font-size: 15px;
+        margin: 0px 0px 0px 50px;
+        position: relative;
+        color: #fff;
+    }
+}

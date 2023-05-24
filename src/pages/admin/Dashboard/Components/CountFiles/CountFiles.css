@@ -1,0 +1,84 @@
+.cont-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 40px;
+  width: 40%;
+  margin: 10px;
+}
+
+.container-cont-items-files {
+  width: 330px;
+  height: 150px;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-direction: column;
+}
+
+.cont-body-v2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 50%;
+  height: 60%;
+}
+
+.img-files {
+  width: 60px;
+  height: 60px;
+}
+
+/* Teléfonos inteligentes con pantallas pequeñas */
+@media only screen and (min-width: 320px) and (max-width: 560px) {
+  /* tus estilos para pantallas pequeñas */
+  /* .container-cont-items-files{
+       display:none;
+    } */
+
+  .cont-body-v2 {
+    width: 55%;
+  }
+
+  .img-files {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* Teléfonos inteligentes con pantallas medianas */
+@media only screen and (min-width: 480px) and (max-width: 850px) {
+  /* tus estilos para pantallas medianas */
+  .img-files{
+    width: 40px;
+    height: 40px;
+  }
+  .cont-body-v2{
+    width: 70%;
+  }
+}
+
+/* Tabletas */
+@media only screen and (min-width: 880px) and (max-width: 1100px) {
+  .img-files{
+    width: 45px;
+    height: 45px;
+  }
+  .cont-body-v2{
+    width: 55%;
+  }
+}
+
+/* Monitores de escritorio y portátiles */
+@media only screen and (min-width: 1024px) and (max-width: 1920px) {
+  /* tus estilos para monitores de escritorio y portátiles */
+}
+
+/* Monitores grandes */
+@media only screen and (min-width: 1920px) {
+  /* tus estilos para monitores grandes */
+}

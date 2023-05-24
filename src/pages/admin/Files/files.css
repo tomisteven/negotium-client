@@ -1,0 +1,22 @@
+.conteiner-files {
+  display: flex;
+  width: 99%;
+  height: 500px;
+  flex-direction: row;
+  align-items: center;
+  margin-top: -20px;
+}
+.cont-files-list-files {
+  width: 85%;
+  height: 580px;
+  background-color: rgba(0, 0, 0, 0.096);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  border-radius: 10px;
+  margin-left: 10px;
+  overflow: auto
+}
+
+
+

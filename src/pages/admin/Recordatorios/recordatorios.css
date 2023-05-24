@@ -1,0 +1,181 @@
+
+.recordatorios-container{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 0.061);
+    padding: 10px;
+    overflow-y: auto;
+    border-radius: 10px;
+}
+
+.btn-add{
+    width: 14%;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    margin: auto
+}
+.cont-btn-add{
+
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: -50px;
+}
+.item-img-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+.item-img{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.item-cont{
+    background-color: rgba(0, 4, 255, 0.08);
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.item-info{
+    width: 69%;
+    height: auto;
+
+}
+.item-desc{
+    width: 95%;
+    height: auto;
+    padding-top: 10px;
+    color: rgb(0, 0, 0);
+
+}
+
+.item-fecha-caducada{
+    width: 20%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    color: red;
+    font-weight: 700;
+    font-size: 13px;
+
+}
+.nombre-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: auto;
+}
+.cont-fechas{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.item-title{
+    border-bottom: 2px solid rgba(0, 0, 255, 0.594);
+    width: 95%;
+    padding-bottom: 5px;
+    color: rgba(0, 0, 0, 0.605)
+}
+.item-actions{
+    width: 26%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+.item-fecha{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 30px;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+
+}
+.item-fecha-caducada{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 30px;
+    color: rgb(171, 30, 30);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+
+}
+
+.img_no_recordatorios{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+}
+
+.no-recordatorios{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cont-completado-pendiente{
+    margin: 25px;
+    padding: 7px 25px 7px 25px;
+    border-radius: 10px;
+}

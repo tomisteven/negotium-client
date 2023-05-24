@@ -1,0 +1,42 @@
+.header-nav{
+    height: 70px;
+    width: auto;
+}
+
+.logo{
+    position: relative;
+    top: 15px;
+    left: 45px;
+    height: 140px;
+    width: 140px;
+    object-fit: contain;
+}
+.header-ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    width: 95%;
+}
+
+.header-ul-items{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    width:50%;
+}
+
+.header-item-name{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.header-item-name:hover{
+    text-shadow: 0px 0 15px rgb(255, 255, 255);
+    border-bottom: 2px solid white;
+}

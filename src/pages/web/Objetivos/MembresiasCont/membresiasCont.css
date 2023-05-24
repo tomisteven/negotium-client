@@ -1,0 +1,85 @@
+.membresias-cont{
+    width: 90%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.106);
+    border-radius: 6px;
+    margin:auto;
+    margin-top: 30px;
+}
+
+.membresia-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.membresia-item{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    opacity: 0.7;
+    font-weight: 700;
+    width: 30%;
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 9px;
+}
+
+.membresia-text{
+    display: flex;
+    flex-direction: column;
+
+
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.m-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.membresia-title{
+    margin: auto;
+    margin-top: 15px;
+    color: rgb(24, 24, 24);
+    background-color: rgba(255, 255, 255, 0.243);
+    width: 100%;
+}
+ .m-title{
+    text-align: center;
+ }
+
+.cont-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    cursor: pointer ;
+}
+.membresia-btn{
+    padding: 5px 20px;
+    border-radius: 5px;
+     background-color: #ffffff ;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    text-decoration: none;
+    border: none;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    cursor: pointer ;
+}

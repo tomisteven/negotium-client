@@ -1,0 +1,102 @@
+.contenido-calendar{
+  margin-top: -60px;
+}
+.contenido-servicios-clientes{
+  width: 49%;
+  height: 350px;
+  background-color: #1d1d1d0f;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 3px;
+  grid-row-gap: 6px;
+  grid-gap: 10px;
+  padding: 10px;
+  overflow-y: auto;
+  overflow-x: hidden
+}
+
+.dos-cont{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* cards */
+.card-servicios-clientes{
+  width: 310px;
+  height: 60px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-top: 5px;
+  display: flex;
+
+  align-items: center;
+  flex-direction: row;
+}
+.car-servicios-img{
+  width: 20%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.car-servicios-img img{
+  width: 40px;
+  height:  40px;
+  border-radius: 10px;
+}
+
+.card-servicios-info{
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin-left: 10px;
+}
+
+.card-servicios-info p{
+  font-size: 12px;
+  font-weight: 400;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+.card-servicios-info span{
+  font-size: 13px;
+  font-weight: 700;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+
+.title-events{
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 0;
+  position: relative;
+
+}
+.cont-title-eventos{
+  width: 100%;
+  height: 60px;
+  background-color: #0404041a;
+
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}

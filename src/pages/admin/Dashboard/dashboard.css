@@ -1,0 +1,97 @@
+/* CONTENIDO GENERAL DEL DASHBOARD */
+
+.loader-cont{
+    width: 100%;
+    position: relative;
+    height: 50vh;
+}
+
+.dashboard-panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 170px;
+    margin-top: -25px;
+
+}
+
+.dashboard-v2{
+    width: 98%;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.dashboard-services{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.061);
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.text-sin-servicios{
+    color: #000;
+
+}
+
+
+/* responsive */
+
+/* Teléfonos inteligentes con pantallas pequeñas */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    /* tus estilos para pantallas pequeñas */
+    .dashboard-panel{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+        margin-top: -25px;
+    }
+  }
+
+  /* Teléfonos inteligentes con pantallas medianas */
+  @media only screen and (min-width: 480px) and (max-width: 768px) {
+    /* tus estilos para pantallas medianas */
+  }
+
+  /* Tabletas */
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* tus estilos para tabletas */
+    .dashboard-v2{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      margin: auto;
+    }
+  }
+
+  /* Monitores de escritorio y portátiles */
+  @media only screen and (min-width: 1025px) and (max-width: 1240px) {
+    .dashboard-v2{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+    }
+  }
+
+
+  /* Monitores grandes */
+  @media only screen and (min-width: 1280px) and (max-width: 1400px) {
+    /* tus estilos para monitores grandes */
+  }

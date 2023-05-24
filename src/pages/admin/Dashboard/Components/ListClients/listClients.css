@@ -1,0 +1,106 @@
+
+
+
+.clientes-v2{
+    width: 68%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.055);
+    padding: 15px;
+    border-radius: 10px;
+   border: solid 2px rgba(0, 0, 0, 0.215);
+   overflow: auto;
+}
+
+.sin-clientes{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    height: 140px;
+    position: relative;
+    top: 25%;
+}
+
+.img-sinclientes{
+    width: 130px;
+    height: 130px;
+    margin-top: 20px;
+    position: relative;
+    left: 45%;
+}
+
+.font-item-list{
+    font-size: 13px;
+}
+
+.name-item-list{
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 2px;
+}
+
+
+
+/* responsive */
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .clientes-v2{
+        display: none;
+    }
+    .sin-clientes{
+        color: black;
+        font-size: 20px;
+        text-align: center;
+        height: 140px;
+        position: relative;
+        top: 25%;
+    }
+    .img-sinclientes{
+        width: 130px;
+        height: 130px;
+        margin-top: 20px;
+        position: relative;
+        left: 45%;
+    }
+    .font-item-list{
+        font-size: 13px;
+    }
+    .name-item-list{
+        font-size: 13px;
+        font-weight: bold;
+        margin-left: 2px;
+    }
+
+    .overflow-table{
+        overflow: auto;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px){
+    .clientes-v2{
+        width: 100%;
+    }
+    .font-item-list-t{
+        display: none;
+    }
+    .items-header-table-t{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .clientes-v2{
+        width: 99%;
+    }
+    .font-item-list-t{
+        display: none;
+    }
+    .items-header-table-t{
+        display: none;
+    }
+
+}
+@media only screen and (min-width: 1280px) and (max-width: 1400px) {
+    /* tus estilos para monitores grandes */
+    .clientes-v2 {
+      width: 67%;
+    }
+  }

@@ -1,0 +1,197 @@
+.title-header{
+    color: black;
+    font-size: 20px;
+    margin-left: 25px;
+
+}
+
+.cont-titulo-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 35%;
+    left: 10px;
+    height: 40px;
+    position: relative;
+    top: -90px;
+}
+
+.img-header{
+    width: 25px;
+    height: 25px;
+    position: relative;
+}
+
+.img-header-services{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+/* paneles */
+.contenedores-cards{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.selector-filter{
+    height: 30px;
+    width: 170px;
+
+    border-radius: 14px;
+    border: 2px solid rgb(0, 0, 0);
+    position: relative;
+    left: 15px;
+    color: rgba(0, 0, 0, 0.087);
+
+}
+
+.btn-ver-todos{
+    width: 150px;
+    height: 35px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.206);
+    position: relative;
+
+    left: 25px;
+    color: black;
+}
+
+
+
+/* lista de clientes */
+.font-item-list-v2{
+    color: rgb(255, 0, 0);
+    font-size: 15px;
+    font-weight: bold;
+}
+.cont-list-clientes{
+    width: 99%;
+    border-radius: 10px;
+    height: 630px;
+    margin: auto;
+    margin-top: 15px;
+    background-color: rgba(0, 0, 0, 0.077);
+    padding: 15px;
+    overflow: auto;
+    border: 2px solid rgba(0, 0, 0, 0.315);
+
+}
+
+/* .table-row{
+    background-color: rgba(182, 40, 40, 0.169);
+} */
+
+
+/* contenedor de cards */
+.cont-card-panel{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 20%;
+    height: 105px;
+    margin-top: -60px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.text-header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 40px;
+    width: 99%;
+    position: relative;
+    top: 15px;
+    margin: 3px;
+    margin-left: 10px;
+}
+.title-card{
+    color: rgba(0, 0, 0, 0.741);
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+}
+.title-body{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    top: -35px;
+}
+
+
+
+/* modal */
+
+.span-modal{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    left: 5px;
+}
+
+.table-modal-cont{
+    width: 32%;
+    height: 350px;
+    overflow: auto;
+    position: relative;
+    left:5%;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.body-table-modal{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* btn nuevo cliente */
+.btn-nuevo-cliente{
+    position: absolute;
+    right: 0px;
+    height: 37px;
+    width: 180px;
+}
+
+.input-search{
+    width: 200px;
+    height: 37px;
+    border-radius: 5px;
+    position: relative;
+    left: 30px;
+    color: black;
+}
+
+
+/* table */
+.span-telefono{
+    color: rgb(0, 0, 0);
+
+    font-weight: bold;
+
+}
+
+.no-clientes-table{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.img_sin_clientes{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 25%;
+}

@@ -1,0 +1,20 @@
+.user-user-img-l{
+    width: 20%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.111);
+    border-radius: 15px;
+}
+.user-user-img {
+    width: 20%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.111);
+    border-radius: 15px;
+  }

@@ -1,0 +1,29 @@
+
+.cont-img{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.m-top{
+    position: relative;
+    bottom: 80px;
+    left:  20px;
+    color: white;
+}
+
+.p-descripcion{
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.066);
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+.button-img{
+    background-color: transparent;
+}
